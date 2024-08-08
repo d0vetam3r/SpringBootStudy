@@ -19,7 +19,7 @@ class MemberServiceTest {
 
     @BeforeEach
     public void beforeEach(){
-        //외존성 주입
+        //의존성 주입
         memberRepository = new MemoryMemberRepository();
         memberService = new MemberService(memberRepository);
     }
